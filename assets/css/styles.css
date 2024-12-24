@@ -246,14 +246,17 @@ img{
     row-gap: 2rem;
     text-align: center;
 }
+.skills_title{
+    margin-bottom: var(--mb-1);
+}
 .skills_data{
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
     font-weight: var(--font-semi);
     padding: .5rem 1rem;
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-2);
     border-radius: .5rem;
     box-shadow: 0 4px 6px rgba(0,0,0,.15) ;
 }
@@ -278,6 +281,7 @@ img{
 .project_img{
     width: 100%;
     transition: .5s;
+    cursor: pointer;
 }
 .project_data{
     padding: 1.5rem;
@@ -314,4 +318,46 @@ img{
 }
 .button-link :hover{
     background: none;
+}
+/*---------project-----------*/
+.contact_input{
+    width: 100%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid var(--second-color);
+    margin-bottom: var(--mb-2);
+    outline: none;
+}
+.contact_button{
+    display: block;
+    background-color: var(--second-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+    margin-left: auto;
+}
+/*---------footer-----------*/
+.footer{
+    background-color: var(--first-color);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 2rem 0;
+}
+.footer_title{
+    font-size: 2rem;
+    margin-bottom: var(--mb-4);
+}
+.footer_social{
+margin-bottom: var(--mb-4);
+}
+.footer_icon{
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 var(--mb-2);
 }

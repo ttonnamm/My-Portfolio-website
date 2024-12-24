@@ -16,11 +16,11 @@
 
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
-                    <li class="nav_item"><a href="#" class="nav_link active">Home</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">About</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Skills</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Project</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#project" class="nav_link">Project</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
                 </ul> 
             </div>       
             
@@ -32,7 +32,7 @@
 
     <main class="l-main">
 
-    <!----------Home------------>
+        <!----------Home------------>
         <section class="home bd-grid" id="home">
             <div class="home_data">
                 <h1 class="home_title">Hello, <br>I'm <span class="home_title-color">Kanyarat Thaneesorn</span><br>IoT System & Information Engineering Student</h1>
@@ -60,7 +60,7 @@
                 </div>
                 <div>
                     <h2 class="about_subtitle">I'm Tonnam,</h2>
-                    <p class="about_text">Junior student in IoT system engineering at King Mongkut's Institute of Technology Ladkrabang.<br> Durring study, I work on a project and have an interested in Front end development and UI design.</p>
+                    <p class="about_text">Junior student in IoT system & Information Engineering at King Mongkut's Institute of Technology Ladkrabang.<br> Durring study, I work on a project and have an interested in Front end development and UI design.</p>
                 </div>
             </div>
         </section>
@@ -88,10 +88,8 @@
                         <div class="skills_name">
                             <i class='bx bxs-group' ></i>
                             <span class="skills_name">Teamwork</span>
-                        </div>
-                                  
-                    </div>
-                        
+                        </div>             
+                    </div>    
                 </div>
                 <!----------Hard Skills------------>
                 <div>
@@ -109,40 +107,50 @@
                             <span class="skills_name">HTML</span>
                         </div>
                     </div>
+
                     <div class="skills_data">
                         <div class="skills_name">
                             <i class='bx bxl-css3' ></i>
                             <span class="skills_name">CSS</span>
                         </div>
                     </div>
+
                     <div class="skills_data">
                          <div class="skills_name">
                             <i class='bx bxl-javascript' ></i>
                             <span class="skills_name">Javascript(basic)</span>
                         </div>
                     </div>
+
+                    <div class="skills_data">
+                        <div class="skills_name">
+                           <i class='bx bxl-python' ></i>
+                           <span class="skills_name">Python(basic)</span>
+                       </div>
+                   </div>
+
+
                     <div class="skills_data">
                          <div class="skills_name">
                             <i class='bx bxs-paint' ></i>
                             <span class="skills_name">Graphic design</span>
                         </div>
                     </div>
+
                     <div class="skills_data">
                         <div class="skills_name">
                             <i class='bx bxs-videos' ></i>
                             <span class="skills_name">Video Editing</span>
                         </div>
-                    </div>
-                        
-                        
-                    </div>                
-                </div>
+                    </div>  
+                </div>                
             </div>
+        </section>
 
-            <!----------Project------------>
-            <section class="projrct section" id="skills">
+        <!----------Project------------>
+        <section class="project section" id="project">
                 <h2 class="section-title">Project</h2>
-            <div class="project_container bd-grid">
+                <div class="project_container bd-grid">
                 <!----------Project model smart bed------------>
                 <div class="project_content">
                     <a href="#"><img src="assets/img/smart bed4.PNG" alt="" class="project_img"></a>
@@ -167,19 +175,34 @@
                     <div class="project_data">
                         <a href="#"><h2 class="project_title">Body Guide AI</h2></a>
                         <a href="#"><h2 class="project_subtitle">An AI predicts the type of clothes and provides recommendation on whether those clothes are suitable for the user body shape.</h2></a>
-                        <a href="#" class="button button-link">View Details</a>
-                        
+                        <a href="#" class="button button-link">View Details</a> 
                     </div>
-                </div> 
+                </div>    
+                </div>
+        </section>
 
-                    
-                
+        <!----------Contact------------>
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact_container bd-grid">
+                <form action="" class="contact_form">
+                    <input type="text" placeholder="Name" class="contact_input">
+                    <input type="mail" placeholder="E-mail" class="contact_input">
+                    <textarea name="" id="" placeholder="Massage" class="contact_input" cols="0" rows="10"></textarea>
+                    <input type="button" value="Send" class="contact_button">
+                </form>
             </div>
+        </section>
 
-
-            </section>
-
-
+        <!----------Footer------------>
+        <footer class="footer">
+            <p class="footer_title">Tonnam</p>
+            <div class="footer_social">
+                <a href="#" class="footer_icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer_icon"><i class='bx bxl-facebook' ></i></a>
+            </div>
+            <p>&#169 Kanyarat Thaneesorn</p>
+        </footer>
     </main>
 
     <script src="https://unpkg.com/scrollreveal"></script>
